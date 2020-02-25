@@ -1,0 +1,119 @@
+.container {
+    display: inline-block;
+    width: 100%;
+    padding: 80px 0;
+}
+    .container.hero {
+        background-color: darkblue;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        background-image: url(..//img/Merknad_2020-02-24_125822.jpg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+    }
+    .container.content {
+        background-color: #FFF;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .container.footer {
+        background-color: darkblue;
+        padding-top: 10px;
+        padding-bottom: 80px;
+    }
+    .container > .hero-row {
+        display: inline-block;
+        width: 600px;
+        margin-left: calc(50% - 300px);
+    }
+        .hero-row > .logo {
+            display: inline-block;
+            width: 30px;
+            margin-left: calc(50% - 15px);
+        }
+        .hero-row > h1 {
+            display: inline-block;
+            width: 600px;
+            margin-left: calc(50% - 300px);
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-size: 50px;
+            text-align: center;
+        }
+        .hero-row > p{
+            display: inline-block;
+            width: 600px;
+            margin-left: calc(50% - 300px);
+            padding-top: 10px;
+            color: #BAC2CE;
+            text-align: center;
+        }
+        .countdown-clock > p {
+            display: inline-block;
+            float: left;
+            width: 25%;
+            padding-top: 50px;
+            text-align: center;
+            font-size: 25px;
+            font-family: cursive;
+            color: #FFF;
+        }
+        .countdown-p > p  {
+            display: inline-block;
+            float: left;
+            width: 25%;
+            text-align: center;
+            font-size: 8px;
+            text-transform: uppercase;
+            font-family: cursive;
+            color: #FFF;
+        }
+    .container > .row {
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc(50% - 500px);
+    }
+        .container > .row > .left {
+            display: inline-block;
+            float: left;
+            width: 50%;
+        }
+        .container > .row > .right {
+            display: inline-block;
+            float: RIGHT;
+            width: 40%;
+        }
+
+@media (max-width: 1100px) {
+    .container > .row {
+        width: 800px;
+        margin-left: calc(50% - 400px);
+
+    }
+}
+@media (max-width: 900px) {
+    .container > .row {
+        width: 600px;
+        margin-left: calc(50% - 300px);
+    }
+}
+@media (max-width: 700px) {
+    .container > .hero-row,
+    .container > .row,
+    .hero-row > h1,
+    .hero-row > p {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 0;
+    }
+    .container > .row > .left {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .container > .row > .right {
+        width: 100%;
+    }  
+}
+

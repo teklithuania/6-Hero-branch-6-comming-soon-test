@@ -1,0 +1,22 @@
+form {
+    display: inline-block;
+    width: 100%;
+}
+
+    form > input {
+        display: inline-block;
+        width: 80%;
+        margin-left: calc(50% - 40%);
+        margin-top: 50px;
+        line-height: 25px;
+        border: none;
+        background: transparent;
+        border-bottom: 2px solid grey;
+        color: transparent;
+    }
+        .mouse {
+            display: inline-block;
+            width: 12px;
+            margin-left: calc(50% - 6px);
+            padding-top: 10px;
+        }
